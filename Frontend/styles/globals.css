@@ -1,0 +1,20 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+#faq,
+#team,
+#sitemap {
+	scroll-margin-top: 70px;
+}
+#about {
+	scroll-margin-top: 73px;
+}
+#home {
+	scroll-margin-top: 60px;
+}
