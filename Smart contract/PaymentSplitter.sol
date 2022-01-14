@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/Address.sol";
-import "../utils/Context.sol";
+import "./Address.sol";
+import "./Context.sol";
 
 /**
  * @title PaymentSplitter
