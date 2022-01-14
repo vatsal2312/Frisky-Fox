@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.7;
 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "./ERC721Enumerable.sol";
 
 contract FriskyFoxNFT is ERC721Enumerable {
 using Strings for uint256;
